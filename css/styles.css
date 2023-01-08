@@ -1,7 +1,6 @@
 body {
-  background-color: var(--main-color);
   font-family: "Roboto", sans-serif;
-  color: var(--main-color-h);
+  color:#2E2F42;
   background: #e5e5e5;
 }
 .link:hover,
@@ -76,8 +75,8 @@ body {
 }
 /*---/HERO---*/
 /*---FEATURES---*/
-.portfolio-nav button:hover,
-.portfolio-nav button:focus,
+.portfolio-navigation button:hover,
+.portfolio-navigation button:focus,
 .hero button:hover,
 .hero button:focus {
   background-color: #404bbf;
