@@ -7,34 +7,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"/>
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Home Work</title>
   </head>
   <body>
     <!--HEADER-->
     <header class="header">
-      <nav class="navigation">
-        <a class="logo" href="./index.html"
-          ><span class="logo-web">Web</span>Studio</a
+        <nav class="navigation">
+        <a href="./index.html" class="logo link">
+          <span class="logo-web">WEB</span>STUDIO</a
         >
-        <ul class="menu">
-          <li>
-            <a class="link" href="./index.html">Studio</a>
+        <ul class="menu lists">
+          <li class="menu-item">
+            <a class="menu-txt link" href="./index.html">Studio</a>
           </li>
-          <li>
-            <a class="link" href="./portfolio.html">Portfolio</a>
+          <li class="menu-item">
+            <a class="menu-txt link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li>
-            <a class="link" href="Contacts">Contacts</a>
-          </li>
+          <li class="menu-item"><a class="menu-txt link" href="/">Contacts</a></li>
         </ul>
       </nav>
-      <address class="address">
-        <ul class="mail-tel">
-          <li class="mail"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="tel"><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address>
+        <ul class="mail-tel lists">
+          <li>
+            <a class="link contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
@@ -44,13 +49,13 @@
       <!--HERO-->
       <section class="hero">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="button" type="button"><span class="button-txt">Order Service</span></button>
+        <button class="main-btn" type="button">Order Service</button>
       </section>
       <!--/HERO-->
       <!--FEATURES-->
       <section class="features">
         <h2 class="visually">Features</h2>
-        <ul class="fetures-list">
+        <ul class="fetures-list lists">
           <li>
             <h3 class="features-title">Strategy</h3>
             <p class="features-txt">
@@ -85,8 +90,8 @@
       <!--PROJECTS-->
       <section class="projects">
         <h2 class="project-title">What are we doing</h2>
-        <ul class="projects-list">
-          <li>
+        <ul class="projects-list lists">
+          <li class="img">
             <img
               src="./images/monitor.jpg"
               alt="monitor"
@@ -94,7 +99,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="img">
             <img
               src="./images/telephones.jpg"
               alt="telephones"
@@ -102,7 +107,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="img">
             <img
               src="./images/telephonandnote.jpg"
               alt="telephone_and_monitor"
@@ -116,16 +121,16 @@
       <!--TEAM-->
       <section class="team">
         <h2 class="team-title">Our Team</h2>
-        <ul class="team-list">
-          <li class="product-designer">
+        <ul class="team-list lists">
+          <li>
             <img
               src="./images/imgboroda.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3 class="name">Mark Guerrero</h3>
-            <p class="txt">Product Designer</p>
+            <h3 class="team-name">Mark Guerrero</h3>
+            <p class="job">Product Designer</p>
           </li>
           <li>
             <img
@@ -134,8 +139,8 @@
               width="264"
               height="260"
             />
-            <h3 class="name">Tom Ford</h3>
-            <p class="txt">Frontend Developer</p>
+            <h3 class="team-name">Tom Ford</h3>
+            <p class="job">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -144,8 +149,8 @@
               width="264"
               height="260"
             />
-            <h3 class="name">Camila Garcia</h3>
-            <p class="txt">Marketing</p>
+            <h3 class="team-name">Camila Garcia</h3>
+            <p class="job">Marketing</p>
           </li>
           <li>
             <img
@@ -154,8 +159,8 @@
               width="264"
               height="260"
             />
-            <h3 class="name">Daniel Wilson</h3>
-            <p class="txt">UI Designer</p>
+            <h3 class="team-name">Daniel Wilson</h3>
+            <p class="job">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -164,7 +169,9 @@
     <!--/MAIN-->
     <!--FOOTER-->
     <footer class="footer">
-      <a class="logo-footer" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+      <a class="footer-logo link" href="./index.html"
+        ><span class="logo-web">WEB</span>STUDIO</a
+      >
       <p class="footer-txt">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
