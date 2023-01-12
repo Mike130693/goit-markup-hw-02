@@ -41,7 +41,7 @@ body {
 .menu-txt:focus,
 .mail:hover,
 .mail:focus {
-  color: #404BBF;;
+  color: #404bbf;
 }
 .menu-txt {
   font-weight: 500;
