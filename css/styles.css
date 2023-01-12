@@ -76,11 +76,11 @@ body {
   background-color: var(--studio-btn-color);
   color: var(--studio-btn-txt-color);
 }
-.main-btn,
+.main-btn:hover,
 .portfolio-btn:hover {
   background: var(--background-btn-color);
 }
-.main-btn,
+.main-btn:focus,
 .portfolio-btn:focus {
   background: var(--background-btn-color);
 }
