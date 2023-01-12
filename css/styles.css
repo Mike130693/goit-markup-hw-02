@@ -12,6 +12,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--studio-btn-txt-color);
+  color: var(--main-color);
 }
 .lists {
   list-style: none;
@@ -36,12 +37,11 @@ body {
   line-height: 1.33;
   color: #4d5ae5;
 }
-.menu-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
+.menu-txt:hover,
+.menu-txt:focus,
+.mail:hover,
+.mail:focus {
+  color: #404BBF;;
 }
 .menu-txt {
   font-weight: 500;
@@ -90,7 +90,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-color);
 }
 .features-txt {
   font-weight: 400;
@@ -107,7 +106,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--main-color);
 }
 /*---------TEAM--------*/
 .team-title {
@@ -117,7 +115,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--main-color);
 }
 .team-name {
   font-weight: 500;
@@ -125,7 +122,6 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--main-color);
 }
 .job {
   font-weight: 400;
