@@ -25,6 +25,9 @@ body {
 .link {
   text-decoration: none;
 }
+.visually {
+  color: var(--studio-btn-txt-color);
+}
 /*---------HEADER--------*/
 .logo {
   font-family: "Raleway", sans-serif;
@@ -83,11 +86,6 @@ body {
 .main-btn:hover,
 .main-btn:focus {
   background: var(--background-btn-color);
-}
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  background: var(--background-btn-color);
-  color: var(--portfolio-btn-hover-txt-color);
 }
 /*---------FEATURES--------*/
 .features-title {
@@ -151,6 +149,11 @@ body {
   color: var(--footer-txt-color);
 }
 /*---------PORTFOLIO--------*/
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background: var(--background-btn-color);
+  color: var(--portfolio-btn-hover-txt-color);
+}
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -173,7 +176,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-txt-color);
-}
-.visually {
-  color: var(--studio-btn-txt-color);
 }
