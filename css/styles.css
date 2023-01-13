@@ -7,6 +7,11 @@
   --studio-btn-txt-color: #ffff;
   --background-btn-color: #404bbf;
   --hero-footer-background-color: #2e2f42;
+  --logo-web-color: #4d5ae5;
+  --menu-hover-color: #404bbf;
+  --footer-logo-color: #f4f4fd;
+  --footer-txt-color: #e7e9fc;
+  --portfolio-btn-hover-txt-color: #ffff;
 }
 
 body {
@@ -27,21 +32,17 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  letter-spacing: 0.03em;
   color: var(--main-color);
 }
 .logo-web {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  color: #4d5ae5;
+  color: var(--logo-web-color);
 }
 .menu-txt:hover,
 .menu-txt:focus,
 .mail:hover,
 .mail:focus {
-  color: #404bbf;
+  color: var(--menu-hover-color);
 }
 .menu-txt {
   font-weight: 500;
@@ -62,7 +63,6 @@ body {
   background-color: var(--hero-footer-background-color);
 }
 .main-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -70,11 +70,18 @@ body {
   color: var(--studio-btn-txt-color);
 }
 .main-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--studio-btn-color);
   color: var(--studio-btn-txt-color);
+}
+.main-btn,
+.portfolio-btn {
+  cursor: pointer;
 }
 .main-btn:hover,
 .portfolio-btn:hover {
@@ -84,15 +91,19 @@ body {
 .portfolio-btn:focus {
   background: var(--background-btn-color);
 }
+.portfolio-btn:hover {
+  color: var(--portfolio-btn-hover-txt-color)
+}
+.portfolio-btn:focus {
+  color: var(--portfolio-btn-hover-txt-color)
+}
 /*---------FEATURES--------*/
 .features-title {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .features-txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -100,7 +111,6 @@ body {
 }
 /*---------PROJECTS--------*/
 .project-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -109,7 +119,6 @@ body {
 }
 /*---------TEAM--------*/
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -117,14 +126,12 @@ body {
   text-transform: capitalize;
 }
 .team-name {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
 }
 .job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -137,43 +144,38 @@ body {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--footer-logo-color);
 }
 .footer-txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--footer-txt-color);
 }
 /*---------PORTFOLIO--------*/
 .portfolio-btn {
+  font-family: "Roboto",sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   background-color: var(--portfolio-btn-color);
   color: var(--portfolio-btn-txt-color);
 }
 .portfolio-title {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
 .portfolio-txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
