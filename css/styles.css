@@ -182,5 +182,5 @@ body {
   color: var(--second-txt-color);
 }
 .visually {
-  color: #ffff;
+  color: var(--studio-btn-txt-color);
 }
