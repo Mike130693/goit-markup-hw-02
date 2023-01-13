@@ -84,17 +84,12 @@ body {
   cursor: pointer;
 }
 .main-btn:hover,
-.portfolio-btn:hover {
+.main-btn:focus {
   background: var(--background-btn-color);
 }
-.main-btn:focus,
+.portfolio-btn:hover,
 .portfolio-btn:focus {
   background: var(--background-btn-color);
-}
-.portfolio-btn:hover {
-  color: var(--portfolio-btn-hover-txt-color);
-}
-.portfolio-btn:focus {
   color: var(--portfolio-btn-hover-txt-color);
 }
 /*---------FEATURES--------*/
