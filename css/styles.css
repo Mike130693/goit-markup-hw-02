@@ -92,10 +92,10 @@ body {
   background: var(--background-btn-color);
 }
 .portfolio-btn:hover {
-  color: var(--portfolio-btn-hover-txt-color)
+  color: var(--portfolio-btn-hover-txt-color);
 }
 .portfolio-btn:focus {
-  color: var(--portfolio-btn-hover-txt-color)
+  color: var(--portfolio-btn-hover-txt-color);
 }
 /*---------FEATURES--------*/
 .features-title {
@@ -160,7 +160,7 @@ body {
 }
 /*---------PORTFOLIO--------*/
 .portfolio-btn {
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
