@@ -55,7 +55,7 @@ body {
   color: var(--main-color);
 }
 .contacts {
-  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -74,7 +74,6 @@ body {
 }
 .main-btn {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -155,8 +154,7 @@ body {
   color: var(--portfolio-btn-hover-txt-color);
 }
 .portfolio-btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
